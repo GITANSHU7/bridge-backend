@@ -13,6 +13,10 @@ const coinRoutes = require('./routes/getCoinByIDRoutes');
 app.use('/tokens', coinListRoutes)
 app.use('/coins', coinRoutes)
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the CoinGecko API');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
