@@ -1,0 +1,24 @@
+{
+  "name": "bridge-backend",
+  "version": "1.0.0",
+  "description": "Backend for Bridge",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "serve": "nodemon server.js"
+  },
+  "author": "Gitanshu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "chai": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mocha": "^10.6.0",
+    "nodemon": "^3.1.4",
+    "sinon": "^18.0.0",
+    "sinon-chai": "^3.7.0"
+  }
+}
